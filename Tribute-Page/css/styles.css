@@ -1,0 +1,94 @@
+#main {
+    background-color: #EDEDED;
+    margin: 30px 2px;
+    font-family: 'Roboto', 'Lora', serif, sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+}
+.tagline {
+    font-size: medium;
+}
+
+#img-div {
+    background-color: white;
+    margin: 10px 10px 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    display: block;
+    margin-bottom: 15px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-caption {
+    display: block;
+    margin: 0 15px 15px 15px;
+    line-height: 1.5em;
+    text-align: center; 
+}
+
+#tribute-info {
+    width: 46vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.timeline {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 50px;    
+}
+
+li {
+    margin-bottom: 20px;
+    line-height: 1.7em;
+    margin-right: 10px;
+}
+
+.quote-div {
+    font-style: italic;
+    margin: auto 20px;  
+}
+
+.resource {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+#tribute-link {
+    color:rgb(126, 88, 165);
+}
+
+@media (max-width: 900px) {
+    #tribute-info {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: auto;
+        margin-right: 10px; 
+    }
+    .resource {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
