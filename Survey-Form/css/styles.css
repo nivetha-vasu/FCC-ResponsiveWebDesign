@@ -1,0 +1,64 @@
+body {
+    background: url('../images/survey-form-bg-unsplash.jpg');
+    font-family: 'Artifika', 'Lora', serif;
+    font-size: large;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+.form {
+    width: 56%;
+    height: auto;
+    margin-left: 22%;
+    margin-right: 22%;
+    background-color: darkgray;
+    opacity: 0.9;
+    border-radius: 0.5%;
+    box-sizing: border-box;
+    padding: 35px;
+}
+
+::placeholder, select {
+    font-family: 'Artifika', 'Lora', serif;
+    color: dimgray;
+}
+
+input[type=text], input[type=email], input[type=number], select {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: medium;
+    font-family: 'Artifika', 'Lora', serif;
+  }
+
+  input[type=radio], input[type=checkbox] {
+      margin: 8px 0 8px 0;
+  }
+
+  #textarea {
+    width: 100%;
+    height: 130px;
+    padding: 10px 12px;
+    margin: 8px 0 25px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: medium;
+  }
+
+  #submit {
+    width: 100%;
+    height: 40px;
+    border-radius: 1px;
+    border: none;
+    background-color: darkred;
+    font-family: 'Artifika', 'Lora', serif;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+  }
